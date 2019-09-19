@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5345" started-at="2019-03-18T08:13:20Z" finished-at="2019-03-18T08:13:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5345" started-at="2019-03-18T08:13:20Z" finished-at="2019-03-18T08:13:26Z">
+      <class name="TestRunner.RestAPITest">
+        <test-method status="PASS" signature="makeSureThatGetWeatherDetails()[pri:0, instance:TestRunner.RestAPITest@3498ed]" name="makeSureThatGetWeatherDetails" duration-ms="2572" started-at="2019-03-18T13:43:20Z" finished-at="2019-03-18T13:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureThatGetWeatherDetails -->
+        <test-method status="PASS" signature="makeSureThatGoogleIsUp()[pri:0, instance:TestRunner.RestAPITest@3498ed]" name="makeSureThatGoogleIsUp" duration-ms="438" started-at="2019-03-18T13:43:23Z" finished-at="2019-03-18T13:43:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeSureThatGoogleIsUp -->
+        <test-method status="PASS" signature="test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6()[pri:0, instance:TestRunner.RestAPITest@3498ed]" name="test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6" duration-ms="722" started-at="2019-03-18T13:43:23Z" finished-at="2019-03-18T13:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Md5CheckSumForTest_ShouldBe098f6bcd4621d373cade4e832627b4f6 -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe20_Parameterized()[pri:0, instance:TestRunner.RestAPITest@3498ed]" name="test_NumberOfCircuits_ShouldBe20_Parameterized" duration-ms="247" started-at="2019-03-18T13:43:24Z" finished-at="2019-03-18T13:43:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe20_Parameterized -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String, int)[pri:0, instance:TestRunner.RestAPITest@3498ed]" name="test_NumberOfCircuits_ShouldBe_DataDriven" duration-ms="219" started-at="2019-03-18T13:43:24Z" data-provider="seasonsAndNumberOfRaces" finished-at="2019-03-18T13:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String, int)[pri:0, instance:TestRunner.RestAPITest@3498ed]" name="test_NumberOfCircuits_ShouldBe_DataDriven" duration-ms="200" started-at="2019-03-18T13:43:25Z" data-provider="seasonsAndNumberOfRaces" finished-at="2019-03-18T13:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2016]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method status="PASS" signature="test_NumberOfCircuits_ShouldBe_DataDriven(java.lang.String, int)[pri:0, instance:TestRunner.RestAPITest@3498ed]" name="test_NumberOfCircuits_ShouldBe_DataDriven" duration-ms="166" started-at="2019-03-18T13:43:25Z" data-provider="seasonsAndNumberOfRaces" finished-at="2019-03-18T13:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_NumberOfCircuits_ShouldBe_DataDriven -->
+        <test-method status="PASS" signature="test_ResponseHeaderData_ShouldBeCorrect()[pri:0, instance:TestRunner.RestAPITest@3498ed]" name="test_ResponseHeaderData_ShouldBeCorrect" duration-ms="174" started-at="2019-03-18T13:43:25Z" finished-at="2019-03-18T13:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ResponseHeaderData_ShouldBeCorrect -->
+        <test-method status="PASS" signature="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia()[pri:0, instance:TestRunner.RestAPITest@3498ed]" name="test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia" duration-ms="580" started-at="2019-03-18T13:43:25Z" finished-at="2019-03-18T13:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ScenarioRetrieveFirstCircuitFor2017SeasonAndGetCountry_ShouldBeAustralia -->
+      </class> <!-- TestRunner.RestAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
